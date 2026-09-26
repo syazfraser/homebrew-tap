@@ -6,10 +6,12 @@ Apps by [syazfraser](https://github.com/syazfraser), installable with [Homebrew]
 | --- | --- | --- |
 | [SGBusBar](https://github.com/syazfraser/SGBusBar) | `brew install --cask syazfraser/tap/sgbusbar` | Singapore bus arrivals in your Mac's menu bar |
 
-Or add the tap once and use the short name from then on:
+Typing the full name like this also tells Homebrew you trust this tap, which it asks for with taps outside its main
+catalogue. Or add and trust the tap once, and use the short name from then on:
 
 ```bash
 brew tap syazfraser/tap
+brew trust syazfraser/tap
 brew install --cask sgbusbar
 ```
 
