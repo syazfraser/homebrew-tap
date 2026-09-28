@@ -1,6 +1,6 @@
 cask "sgbusbar" do
-  version "0.2.0"
-  sha256 "022462ad7a373ea70d7a491d98fda3eafa355deda2d3c22b072fd64f86b91d61"
+  version "0.2.1"
+  sha256 "4482cf75f9555476cb8b7e289311b9f88330ee7c3cb4c5bde0c309ae6f1c03ce"
 
   url "https://github.com/syazfraser/SGBusBar/releases/download/v#{version}/SGBusBar-#{version}.zip"
   name "SGBusBar"
